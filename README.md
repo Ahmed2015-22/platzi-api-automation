@@ -11,7 +11,6 @@ A robust, scalable, and maintainable API Test Automation Framework built using *
 *   **Dynamic Data Generation:** Integration with **JavaFaker** to generate robust, randomized test data on the fly.
 *   **Centralized Configuration:** Property files and JSON data readers for dynamic environment configurations and test data management.
 *   **Comprehensive Logging:** Configured with **Log4j2** for detailed execution logging.
-*   **Rich Reporting:** Integrated with **Allure Reports** to generate beautiful, detailed, and interactive HTML test reports.
 
 ## 📁 Project Architecture
 
@@ -34,6 +33,10 @@ src/
 ├── main/resources/            # Configuration files (environment.properties, log4j2.properties)
 └── test/java/com/rsetAssured/ # TestNG Test Classes (AuthTest, ProductsTest, etc.)
 ```
+## 🤖 CI/CD Integration (GitHub Actions)
+
+This project is configured with a **GitHub Actions** workflow (`.github/workflows/api-tests.yml`) that automatically runs the test suite on every `push` or `pull request` to the `main` or `master` branch.
+
 ### Running via Maven (Command Line)
 The `pom.xml` is configured with the `maven-surefire-plugin` to run the `testng.xml` suite automatically.
 
