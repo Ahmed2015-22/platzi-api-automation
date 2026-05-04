@@ -1,0 +1,13 @@
+{
+  "FirstName": "Ahmed",
+  "SecondName": "Talaat",
+  "ZIPCode": "12345",
+  "massage":
+  {
+    "postal": "Error: Postal Code is required",
+    "lName": "Error: Last Name is required",
+    "fName": "Error: First Name is required"
+  },
+  "overviewLink": "https://www.saucedemo.com/checkout-step-two.html",
+  "completePageURL": "https://www.saucedemo.com/checkout-complete.html"
+}

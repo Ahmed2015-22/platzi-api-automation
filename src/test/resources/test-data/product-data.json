@@ -1,0 +1,30 @@
+{
+  "Sorting" :
+  {
+    "AssName": "Name (A to Z)",
+    "DescName": "Name (Z to A)",
+    "ASCPrice": "Price (low to high)",
+    "DescPrice": "Price (high to low)"
+  },
+  "Price" :
+  {
+    "backpack": "$29.99",
+    "bikeLight": "$9.99",
+    "boltTShirt": "$15.99",
+    "fleeceJacket": "$49.99",
+    "onesie": "$7.99",
+    "redShirt": "$15.99"
+  },
+  "logoutLink": "https://www.saucedemo.com/",
+  "aboutLink": "https://saucelabs.com/",
+  "cartLink": "https://www.saucedemo.com/cart.html",
+  "copyRightText": "© 2026 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy",
+
+    "socialMediaLinks": {
+        "twitter": "https://x.com/saucelabs",
+        "facebook": "https://www.facebook.com/saucelabs",
+        "linkedIn": "https://www.linkedin.com/company/sauce-labs/"
+    }
+
+
+}

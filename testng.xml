@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+<suite name="Platzi Fake API Suite" parallel="classes" thread-count="3">
+    <test name="Platzi Fake API">
+        <classes>
+            <class name="com.rsetAssured.AuthTest" />
+            <class name="com.rsetAssured.UsersTest" />
+            <class name="com.rsetAssured.ProductsTest" />
+            <class name="com.rsetAssured.CategoriesTest" />
+        </classes>
+    </test>
+</suite>
